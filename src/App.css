@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    color: #FFF;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lists {
+    margin-top: -150px;
+}
+
+.loading {
+    position: fixed;
+    inset: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading img {
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: paleturquoise;
+}
